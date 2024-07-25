@@ -11,11 +11,11 @@ const Navbar = () => {
       REACT.
         </h3>
         <ul className='hidden md:flex  titillium-web-regular'>
-          <li className='px-4'><a href='/'>Home</a></li>
-          <li className='px-4'>Company</li>
-          <li className='px-4'>Resource</li>
-          <li className='px-4'>About</li>
-          <li className='px-4'>Contact</li>
+          <li className='px-4 cursor-pointer'>Home</li>
+          <li className='px-4 cursor-pointer'>Company</li>
+          <li className='px-4 cursor-pointer'>Resource</li>
+          <li className='px-4 cursor-pointer'>About</li>
+          <li className='px-4 cursor-pointer'>Contact</li>
         </ul>
         <div className='block md:hidden'>  
           <div className={`cursor-pointer transition-transform duration-500 transform ${nav ? 'rotate-180' : 'rotate-0'} ease-in-out text-[#4ce1ff]`} onClick={()=>setNav(!nav)}>
