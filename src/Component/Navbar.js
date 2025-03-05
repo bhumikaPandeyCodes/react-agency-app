@@ -11,7 +11,7 @@ const Navbar = () => {
       REACT.
         </h3>
         <ul className='hidden md:flex  titillium-web-regular'>
-          <li className='px-4 cursor-pointer'><a href='/'>Home</a></li>
+          <li className='px-4 cursor-pointer'>Home</li>
           <li className='px-4 cursor-pointer'>Company</li>
           <li className='px-4 cursor-pointer'>Resource</li>
           <li className='px-4 cursor-pointer'>About</li>
