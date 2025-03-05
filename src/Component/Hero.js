@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div id='Home'>
     <div className='max-w-[1000px] h-screen mt-48 mx-auto text-center flex flex-col'>
-      <p className='md:text-xl sm:text-md text-sm bodoni-moda-sc text-nav-blue font-bold'>GROWING WITH DATA ANALYTICS</p>
+      <p className='md:text-xl sm:text-md text-sm rajdhani-semibold text-nav-blue font-bold'>GROWING WITH DATA ANALYTICS</p>
       <h1 className='md:text-8xl text-6xl  py-2 font-bold'>Grow with data</h1>
       <div className='flex justify-center items-center'>
       <p className='md:text-4xl py-3 sm:text-2xl text-xl font-semibold' >Fast, flexible financing for</p>

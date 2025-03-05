@@ -11,7 +11,7 @@ const Newsletter = () => {
             <div className='lg:col-span-1 my-8 flex flex-col'>
             <div className=' flex flex-col md:flex-row gap-4 w-full'>
 
-            <input className='px-3 py-2  bg-white outline-none rounded-md ' placeholder='Enter you remail'/>
+            <input className='px-3 py-2  bg-white outline-none rounded-md text-black' placeholder='Enter you remail'/>
             <button className='w-[120px] py-2 bg-nav-blue text-black rounded-md'>Notify Me</button>
             </div>
             <p className='mt-3 lg:mt-1'>We care about the protection of your data.</p>
